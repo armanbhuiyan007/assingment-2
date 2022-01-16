@@ -12,6 +12,7 @@ body{
 .container {
     width: 85%;
     margin: 0 auto;
+   
 }
 h1{
     font-size: 40px;
@@ -29,19 +30,26 @@ h1{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    grid-gap: 10px;
+    grid-gap: 15px;
 }
 
-.col-2 {
+.col-2{
     flex-basis: 16%;
     display: inline;
-    margin-top: 400px;
 }
 
 .col-4 {
     flex-basis: 32%;
     box-shadow: 2px 3px 3px 3px rgba(0,0,0,0.1);
+
     
+}
+.box-top{
+    text-align: center;
+    padding: 5px 0;
+}
+.produt-info{
+    padding: 30px;
 }
 .fa-star{
     color: orange;
@@ -55,7 +63,8 @@ span{
 }
 
 .col-6 {
-    flex-basis: 48%;   
+    flex-basis: 48%;  
+    
 }
 
 .commet{
@@ -67,12 +76,15 @@ span{
 
 .col-10 {
     flex-basis: 84%;
+    display: flex;
     
 }
+
 
 .text-center {
     text-align: center;
     font-size: 20px;
+    display: inline;
 }
 
 .text-right {
@@ -84,23 +96,30 @@ span{
     color: deeppink;
     font-size: 20px;   
 }
+.profile{
+    padding-bottom: 30px;
+}
 
 .extra{
-    margin-left: 80px;
+    padding: 15px;
     font-size: 20px;
 }
     
 .extra-2{
     font-size: 15px;
-    margin-left: 80px;    
 }
 
 .text-left {
     text-align: left;
 }
-
 .align-center{
     margin-top: 30px;
+   
+}
+
+.shadow{
+    box-shadow: 2px 3px 3px 3px rgba(0,0,0,0.1); 
+    grid-gap: 10px; 
 }
 footer{
     background-color: black;
